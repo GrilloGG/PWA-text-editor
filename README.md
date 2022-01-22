@@ -13,31 +13,32 @@
 
 ## Description
 
-This is an API for a social media app. It allows user to create, update and delete users and thoughts, add friends and react to friends's thoughts. The app is based on Mongo database (NoSQL).
+This is single page application for a text editor. It uses PWA technology which allows you to download the app and work on it while offline.
 
 ## Installation
 
-Package required: </br>
+You can use this app by using the Heroku link listed below.
 
-- node.js
-- MongoDB
-- moment
-- express.js
-- nodemon
+In case you want to download the repository you will need to run the following code on your command line:
 
-```bash
-npm i
 ```
+npm install
+```
+
+Once the installation is finished please run:
+
+```
+npm run start
+```
+
+Now you will be able to go to port http://localhost:3000 to use the app.
 
 ## Usage
 
-After installing all the dependencies, please run:
+After runngin `npm run start` and going to `http://localhost:300` on your browser or using the hroku link you can use the text editor.
 
-```bash
-npm run dev
-```
-
-Once the server is running you will be able to use insomnia to test the different routes to use the database.
+It will automatically save what you put on the text edito.
+You can also download the app by clicking on the install button or on the download icon on your search bar on your browser.
 
 ## Test
 
@@ -45,7 +46,8 @@ There is no test available for this app.
 
 ## Links
 
-Github Link: https://github.com/GrilloGG/social-network-api
+Github Link: https://github.com/GrilloGG/PWA-text-editor
+Heroku Link:
 
 ## Questions
 
