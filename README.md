@@ -2,8 +2,6 @@
 
 ## Table Of Contents
 
-- [PWA Text Editor](#pwa-text-editor)
-  - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -47,7 +45,7 @@ There is no test available for this app.
 ## Links
 
 Github Link: https://github.com/GrilloGG/PWA-text-editor
-Heroku Link:
+Heroku Link: https://git.heroku.com/pwa-text-editor-week-19.git
 
 ## Questions
 
