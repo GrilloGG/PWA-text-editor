@@ -26,13 +26,13 @@ module.exports = () => {
       }),
 
       new WebpackPwaManifest({
+        filename: "manifest.json",
         fingerprints: false,
         inject: true,
-        name: "text editor",
-        short_name: "JATE",
-        description: "Another text editor",
-        background_color: "#225ca3",
-        theme_color: "#225ca3",
+        name: "PWA Text Editor",
+        ScreenOrientation: "portrait",
+        description: "A text editor with PWA functionality",
+        short_name: "Text Editor",
         start_url: "/",
         publicPath: "/",
         icons: [
